@@ -1,3 +1,9 @@
+# 注意
+
+当前项目已停止更新，如有需要可移步至[joneezhu/NasTools](https://github.com/joneezhu/NasTools)
+
+
+
 # NAS媒体库管理工具
 
 [![GitHub stars](https://img.shields.io/github/stars/hsuyelin/nas-tools?style=plastic)](https://github.com/hsuyelin/nas-tools/stargazers)
@@ -82,7 +88,7 @@ chmod +x nastools
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf
 echo fs.inotify.max_user_instances=524288 | sudo tee -a /etc/sysctl.conf
 sudo sysctl -p
-```
+ ```
 * 插件-定时目录同步
 
 ### 2. 启动报错数据库no such column
